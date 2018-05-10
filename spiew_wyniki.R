@@ -23,3 +23,6 @@ View(score_b)
 
 difference <- t.test(score_a, score_b)
 View(difference)
+
+ggplot(data = spiew_wynik_raw, aes(x = warunek, y = ocena))+
+  geom_boxplot()
